@@ -10,7 +10,7 @@ const createCategory = async (req:Request,res:Response)=>{
     },
   })
   res.json({
-    message:'Se creo la category',
+    message:'Category created successfully',
     content:resp
   })
 }
